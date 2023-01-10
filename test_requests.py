@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://127.0.0.1:5000/get_form'
+url = 'http://127.0.0.1:5001/get_form'
 params = [
     {'phone': 79211002030, 'date': '2022-10-12', 'email': '123@yandex.ru', 'text': '413rqdqrrqrdwT24'},
     {'phone': 79211002030, 'email': '123@yandex.ru'},
