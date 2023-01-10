@@ -18,6 +18,8 @@ def handler():
         template.update({key: type_field})
     name = get_template_name(template, db)
     if not name:
+        print(f'params_in_request - {params}, transform_template - {template}')
         return template
     else:
+        print(f'params_in_request - {params}, transform_template - {template}, template_name - {name}')
         return name
